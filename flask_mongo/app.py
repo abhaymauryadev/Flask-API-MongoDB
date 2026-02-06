@@ -11,10 +11,15 @@ collection = db["students"]
 @app.route("/", methods=["GET", "POST"])
 def form():
     error = None
+
     if request.method == "POST":
         try:
             name = request.form["name"]
             email = request.form["email"]
+
+            # Force error if fields are empty
+            if not name or not email:
+                raise Exception("All fields are required")
 
             collection.insert_one({
                 "name": name,
