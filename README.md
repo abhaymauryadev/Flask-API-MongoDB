@@ -59,6 +59,7 @@ When the form is submitted:
 ---
 
 ## Project Structure
+```
 Flask-API-MongoDB/
 │
 ├── flask_api/
@@ -73,7 +74,7 @@ Flask-API-MongoDB/
 │
 ├── requirements.txt
 └── README.md
-
+```
 ---
 
 ## Installation and Execution
