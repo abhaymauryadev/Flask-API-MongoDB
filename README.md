@@ -82,16 +82,19 @@ Flask-API-MongoDB/
 ```bash
 pip install -r requirements.txt
 
+```
 
-Run  Flask Application
+### Run  Flask Application
+```
 python app.py
+```
 
-
-Access API
+### Access API
+```
 http://127.0.0.1:5000/api
+```
 
-
-MongoDB Atlas
+### MongoDB Atlas
 
 MongoDB Atlas is used as a cloud NoSQL database
 
@@ -99,6 +102,6 @@ PyMongo is used to connect Flask with MongoDB
 
 Data submitted through the form is stored in the database
 
-Author
 
+Author
 Abhay Maurya
